@@ -1,5 +1,11 @@
-[![Build Status](https://github.com/torbjornbjorkman/cif2cell/workflows/ci/badge.svg)](https://github.com/torbjornbjorkman/cif2cell/actions)
+## What has been changed in this fork:
 
+In `setup.py`, `"PyCifRW==4.4"`changed to `"PyCifRW~=4.4"` in `install_requires`.
+
+-------------------------
+
+
+[![Build Status](https://github.com/torbjornbjorkman/cif2cell/workflows/ci/badge.svg)](https://github.com/torbjornbjorkman/cif2cell/actions)
 A tool to generate the geometrical setup for various electronic
 structure codes from a CIF (Crystallographic Information
 Framework) file. The code will generate the crystal structure for
